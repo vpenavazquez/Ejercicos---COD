@@ -8,3 +8,12 @@ class Tablero:
         # Imprime cada fila de la matriz
         for fila in self.casillas:
             print(fila)
+
+if __name__ == "__main__":
+        # Bloque de pruebas
+
+        # Instancia tablero de 5x5
+        tablero = Tablero(5)
+
+
+        tablero.mostrar_tablero()
