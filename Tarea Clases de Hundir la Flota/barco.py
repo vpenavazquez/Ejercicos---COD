@@ -5,3 +5,6 @@ class Barco:
         self.longitud = longitud
         self.golpes_recibidos = 0  # Empieza siempre en 0
 
+    def recibir_impacto(self):
+        # Incrementamos el contador de golpes
+        self.golpes_recibidos += 1
