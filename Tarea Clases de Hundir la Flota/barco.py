@@ -12,3 +12,6 @@ class Barco:
     def esta_hundido(self):
         # Devuelve True si los golpes igualan la longitud
         return self.golpes_recibidos == self.longitud
+
+    def mostrar_estado(self):
+        print(f"{self.nombre} | Golpes: {self.golpes_recibidos} | ¿Hundido?: {self.esta_hundido()}")
