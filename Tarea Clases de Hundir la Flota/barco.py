@@ -8,3 +8,7 @@ class Barco:
     def recibir_impacto(self):
         # Incrementamos el contador de golpes
         self.golpes_recibidos += 1
+
+    def esta_hundido(self):
+        # Devuelve True si los golpes igualan la longitud
+        return self.golpes_recibidos == self.longitud
