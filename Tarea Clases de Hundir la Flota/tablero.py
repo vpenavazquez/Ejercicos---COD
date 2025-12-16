@@ -15,5 +15,5 @@ if __name__ == "__main__":
         # Instancia tablero de 5x5
         tablero = Tablero(5)
 
-
+        #muestra el tablero
         tablero.mostrar_tablero()
