@@ -24,7 +24,7 @@ if __name__ == "__main__":
         sub.recibir_impacto()
         print(f"Submarino hundido: {sub.esta_hundido()}")
 
-        # 2. Prueba con Buque1
+        # 2. Prueba con Buque
         buque = Barco("Buque", 3)
 
         buque.recibir_impacto()
